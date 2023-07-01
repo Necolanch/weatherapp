@@ -9,7 +9,7 @@ const Search = () => {
     //const [latitude, setLatitude] = useState("");
     const context = useContext(SearchWeatherContext);
 
-    const conversionURL = `http://api.openweathermap.org/geo/1.0/direct`;
+    const conversionURL = `https://api.openweathermap.org/geo/1.0/direct`;
     const weatherURL = `https://api.openweathermap.org/data/3.0/onecall`;
 
     const searchCity = async (e: any, city: string | undefined) => {
